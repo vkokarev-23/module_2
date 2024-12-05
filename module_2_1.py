@@ -1,5 +1,13 @@
-# тест
-import datetime
+# 1. Создайте новый проект
+#
+# 2. В файл main.py добавьте следующий код
 
-current_date = datetime.date.today().isoformat()
-print(current_date)
+print('Hi, PyCharm')
+
+x = 43
+
+y = 32
+
+print(x * y)
+
+print("End line")
