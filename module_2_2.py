@@ -47,17 +47,15 @@ if third == first:
     pair_test[2] = 1
 
 total = sum(pair_test)  # считаем количество единичек в тесте
-if (total == 0):
+if total == 0:
     out_msg = '0 совпавших чисел нет'
-elif (total == 1):
+elif total == 1:
     out_msg = '2 совпавших числа'
-elif (total == 2):
+elif total == 2:
     out_msg = 'НЕВОЗМОЖНО, логическое противоречие'
-elif (total == 3):
+elif total == 3:
     out_msg = '3 совпавших числа'
 else:
     out_msg = 'НЕВОЗМОЖНО, как мы сюда попали?'
 
-# print(f"{pair_test = }, {total = }")    # отладка
 print(out_msg)
-
