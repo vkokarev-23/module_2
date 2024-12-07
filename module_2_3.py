@@ -58,7 +58,7 @@ while i < list_len and my_list[i] >= 0:
 
 
 print()
-print("Вариант-4 цикл 'for' ")
+print("Вариант-4 цикл 'for'  немного не в тему")
 for ML in my_list:
     if ML > 0:
         print(ML)
