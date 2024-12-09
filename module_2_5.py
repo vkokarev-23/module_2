@@ -14,8 +14,12 @@
 #     7. После всех циклов верните значение переменной matrix.
 #     8. Выведите на экран(консоль) результат работы функции get_matrix.
 
-def get_matrix(n_str, n_col, value):
-    pass
+def get_matrix(n_str, m_col, value):
+    matrix = []
+    for i in range(n_str):
+        for k in range(m_col):
+            pass
+    return matrix
 
 result1 = get_matrix(2, 2, 10)
 result2 = get_matrix(3, 5, 42)
